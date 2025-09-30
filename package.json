@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
+    "start": "node src/app.js",
+    "stop": "pkill node",
+    "status": "pgrep -fl node",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
